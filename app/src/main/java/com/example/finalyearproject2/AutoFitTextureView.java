@@ -26,7 +26,6 @@ public class AutoFitTextureView extends TextureView {
         super(context, attrs, defStyleAttr, defStyleRes);
     }
 
-
   //override function to set Length and Width of Texture View
     @Override
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
